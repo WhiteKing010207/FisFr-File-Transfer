@@ -29,4 +29,4 @@ fetchData().then(process.exit);
 //     process.exit();
 // });
 
-module.exports= fetchData;
+//module.exports= fetchData;

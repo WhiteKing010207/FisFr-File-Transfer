@@ -3,7 +3,7 @@ const app = express();
 
 const path = require("path");
 const cors = require("cors");
-const cron = require("node-cron");
+//const cron = require("node-cron");
 
 const PORT = process.env.PORT || 3000;
 
@@ -13,9 +13,9 @@ app.use(express.json());
 const connectDB = require("./config/db");
 connectDB();
 
-//node-cron
-const script = require("./script");
-cron.schedule("0 2 * * *",script);
+// //node-cron
+// const script = require("./script");
+// cron.schedule("0 2 * * *",script);
 
 //Cors
 
