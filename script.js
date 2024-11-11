@@ -28,3 +28,5 @@ fetchData().then(process.exit);
 // fetchData().then(()=>{
 //     process.exit();
 // });
+
+module.exports= fetchData;
